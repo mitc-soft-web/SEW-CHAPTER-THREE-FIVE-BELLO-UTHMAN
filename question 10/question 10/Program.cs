@@ -1,0 +1,11 @@
+﻿Console.Write("Enter the four numbers : ");
+int num = Convert.ToInt32(Console.ReadLine());
+int a =(num/1000)% 10;
+int b = (num/100)% 10;
+int c = (num /10) % 10;
+int d = num % 10;
+int Sum = a+b+c+d;
+Console.WriteLine("The Sum of the numbers: {0} ", Sum);
+Console.WriteLine("The reverse order of the numbers : {0}{1}{2}{3}", d , c , b, a);
+Console.WriteLine("the reverse order of the numbers : {0}{1}{2}{3}", d , a , b, c);
+Console.WriteLine("the reverse order of the numbers : {0}{1}{2}{3}", a, c , b, d);
